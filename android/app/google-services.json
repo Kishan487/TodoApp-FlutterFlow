@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "274550935584",
+    "project_id": "todo-l2xjeq",
+    "storage_bucket": "todo-l2xjeq.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274550935584:android:39b9f0d5f8a8a74d342c45",
+        "android_client_info": {
+          "package_name": "com.mycompany.todo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFh78JX_12Ma4QYACHxFEkPUi_c01S2Sc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

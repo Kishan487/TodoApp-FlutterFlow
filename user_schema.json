@@ -1,0 +1,47 @@
+
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "fun_fact": {
+      "type": "string",
+      "description": "A fun fact about the user.",
+      "example": "I love baseball"
+    },
+    "birthdate": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp representing the user's birthdate in ISO 8601 format.",
+      "example": "2003-10-16T00:00:00-04:00"
+    },
+    "created_time": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp when the user was created in ISO 8601 format.",
+      "example": "2025-02-12T06:59:20-04:00"
+    },
+    "display_name": {
+      "type": "string",
+      "description": "User's display name.",
+      "example": "Cj"
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "description": "User's email address.",
+      "example": "cj.dunston34@gmail.com"
+    },
+    "photo_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL to the user's profile photo.",
+      "example": "https://firebasestorage.googleapis.com/v0/b/todo-l2xjeq.firebasestorage.app/o/users%2FntuQ0S6rY5RZAyWkvOVyAwjp4IP2%2Fuploads%2F1739248598600000.JPG?alt=media&token=f6b81608-f305-40c6-83d6-0fe7c3bece7e"
+    },
+    "uid": {
+      "type": "string",
+      "description": "Unique identifier for the user.",
+      "example": "1kfQEnTOhfTCb4E9zsY0ZOdG7uM2"
+    }
+  },
+  "required": ["fun_fact", "birthdate", "created_time", "display_name", "email", "photo_url", "uid"]
+}

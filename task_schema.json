@@ -1,0 +1,34 @@
+
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "completed": {
+      "type": "boolean",
+      "description": "Indicates whether the task is completed.",
+      "example": true
+    },
+    "created": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp when the task was created in ISO 8601 format.",
+      "example": "2025-02-12T07:00:20-04:00"
+    },
+    "details": {
+      "type": "string",
+      "description": "Details about the task.",
+      "example": "ECON MIDTERM THURSDAY 2/13"
+    },
+    "title": {
+      "type": "string",
+      "description": "Title of the task.",
+      "example": "Study For Midterm"
+    },
+    "user": {
+      "type": "string",
+      "description": "Reference to the associated user document (format: /users/{uid}).",
+      "example": "/users/1kfQEnTOhfTCb4E9zsY0ZOdG7uM2"
+    }
+  },
+  "required": ["completed", "created", "details", "title", "user"]
+}
